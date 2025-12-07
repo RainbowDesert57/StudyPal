@@ -17,13 +17,21 @@ This is the web version, focused on smart study planning, task breakdown, progre
 ---
 # Build instructions
 ## 1. Install dependencies
-```npm install```
+```bash
+npm install
+```
 ## 2. Run the development server
-```npm run dev```
+```bash
+npm run dev
+```
 ## 3. Build production
-```npm run build```
+```bash
+npm run build
+```
 ## 4. Preview production build
-```npm run preview```
+```bash
+npm run preview
+```
 ---
 # Roadmap
 - Full UI in Figma
