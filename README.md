@@ -1,5 +1,5 @@
 # StudyPal
-A mordern, fast, and clean productivity ap built with React, TypeScript, and Vit.
+A mordern, fast, and clean productivity app built with React, TypeScript, and Vite.
 This is the web version, focused on smart study planning, task breakdown, progress insights, and academic tracking.
 ---
 # Features (Planned)
