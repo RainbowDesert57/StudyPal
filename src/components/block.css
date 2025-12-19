@@ -1,0 +1,6 @@
+.block {
+  background-color: var(--bg);
+  box-shadow: var(--neuUpShadow);
+  border-radius: var(--neuRadius);
+  min-width: 0;
+}

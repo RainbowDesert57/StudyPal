@@ -1,0 +1,14 @@
+#homePage {
+  flex: 1;
+
+  display: grid;
+  grid-template-rows: 1fr 2.333fr;
+  grid-template-columns: 1.5fr 4fr 1fr;
+  gap: 30px;
+
+  height: calc(100% - 66px - 70px) ;
+
+  padding: 33px;
+  padding-right: 78px;
+  padding-left: 78px;
+}

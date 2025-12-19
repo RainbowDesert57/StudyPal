@@ -1,0 +1,21 @@
+.menuButton {
+  background-color: var(--accent);
+  border: none;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: white;
+
+  box-shadow: var(--neuUpShadowSmall);
+  z-index: 1000;
+}

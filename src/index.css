@@ -1,33 +1,52 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  color: rgba(0, 0, 0);
+  background-color: #F2F4F7;
+  --bg: #F2F4F7;
+  --overlay: #00000025;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  --textPrimary: #000000;
+  --textContrast: #ffffff;
+  --textSecondary: #6155F5;
+  --textMuted: #6B7280;
+
+  --accent: #6155F5;
+  --accentDefocus: #5657D4;
+  --accentSecondary: #00C8B3;
+
+  --neuUpShadow: 41px  41px 82px #cecfd2,
+                -41px -41px 82px #ffffff;
+  --neuUpShadowSmall: 12px  12px 24px #cecfd2,
+                     -12px -12px 24px #ffffff;
+  --neuUpShadowSmallScaled: 6px  6px 6px #cecfd2,
+                           -6px -6px 6px #ffffff;
+  --neuDownShadowSmall: inset  12px  12px 20px #cecfd2,
+                        inset -12px -12px 20px #ffffff;
+  --neuDownShadowSmallScaled: inset  6px  6px 6px #cecfd2,
+                              inset -6px -6px 6px #ffffff;
+  --neuDownShadow: inset  41px  41px 82px #cecfd2,
+                   inset -41px -41px 82px #ffffff;
+  --neuDownShadowExtraSmall: inset  10px  10px 16px #cecfd2,
+                        inset -10px -10px 16px #ffffff;
+  --neuRadius: 50px;
+  --glowShadow: 0px 0px 80px #ffffff;
+
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background-color: var(--bg);
 }
 
 h1 {
@@ -35,34 +54,24 @@ h1 {
   line-height: 1.1;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(5%);
   }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
   }
 }
