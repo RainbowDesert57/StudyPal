@@ -1,12 +1,6 @@
 # StudyPal
 A mordern, fast, and clean productivity app built with React, TypeScript, and Vite.
 This is the web version, focused on smart study planning, task breakdown, progress insights, and academic tracking.
-# Features (Planned)
-- Smart syllabus breakdown into daily tasks
-- Performance tracking and prediction
-- Clean, Responsive UI
-- Flashcard system 
-- Sync between devices (future)
 # Tech Stack
 - React (with TypeScrept)
 - Vite for blazing-fast dev environment
